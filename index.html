@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricomida</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  </head>
+<body>
+    
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container px-4">
+      <div class="titulo1">RICOMIDA</div>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                   <ul class="navbar-nav">
+                      <li class="nav-item">
+                  <a class="nav-link" href="#acerca">Acerca de mi</a>
+                      </li>
+                      <li class="nav-item">
+                  <a class="nav-link" href="#trabajos">Trabajos</a>
+                      </li>
+                      <li class="nav-item">
+                  <a class="nav-link" href="#formulario">Contacto</a>
+                      </li>
+                  </ul>
+              </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-5">
+      <!-- Agregamos una clase personalizada para agregar margen a la columna -->
+      <img src="/assets/img/pizza.jpg" alt="Imagen" class="img-fluid pizza-image">
+    </div>
+    <div class="col-md-6">
+      <h2>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h2>
+      <p>110 MIN / 6 A 8 PORCIONES</p>
+      <button type="button" class="btn btn-light" data-bs-toggle="popover" title="Enviar por correo" data-bs-content="Haz clic para enviar este contenido por correo electrónico.">
+        Enviar por correo
+      </button>
+      <button type="button" class="btn btn-light" data-bs-toggle="popover" title="Añadir a favoritos" data-bs-content="Añade este contenido a tus favoritos para acceder fácilmente en el futuro.">
+        Añadir a favoritos
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <div id="carouselContainer" class="d-none d-sm-flex justify-content-center">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-between">
+            <img src="/assets/img/cebolla.jpg" class="d-block w-20" alt="Imagen 1">
+            <img src="/assets/img/champ.jpg" class="d-block w-20" alt="Imagen 2">
+            <img src="/assets/img/jalape.jpg" class="d-block w-20" alt="Imagen 3">
+            <img src="/assets/img/masa.jpg" class="d-block w-20" alt="Imagen 4">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-between">
+            <img src="/assets/img/cebolla.jpg" class="d-block w-20" alt="Imagen 5">
+            <img src="/assets/img/pizzas.jpg" class="d-block w-20" alt="Imagen 6">
+            <img src="/assets/img/pepe.jpg" class="d-block w-20" alt="Imagen 7">
+            <img src="/assets/img/queso.jpg" class="d-block w-20" alt="Imagen 8">
+          </div>
+        </div>
+        <!-- Agrega más elementos de carrusel según sea necesario -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="contenedor">
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-4">
+        <h1 id="Ingredientes">Ingredientes</h1>
+        <br>
+        <h2>Masa</h2>
+        <ul>
+          <li>20 gr de levadura seca instantánea</li>
+          <li>1 cucharadita de azúcar</li>
+          <li>500 ml agua tibia</li>
+          <li>100 ml aceite vegetal</li>
+          <li>4 cucharadas de aceite de oliva</li>
+          <li>65 gr harina de maíz fina (chuchoca)</li>
+          <li>2 cucharaditas de sal</li>
+          <li>625 gr harina</li>
+        </ul>
+      
+        <h2>Salsa</h2>
+        <ul>
+          <li>5 cucharadas de aceite de oliva</li>
+          <li>½ cebolla picada en cubos finos</li>
+          <li>2 cucharaditas de sal</li>
+          <li>3 cucharadas de Orégano Gourmet</li>
+          <li>1 ½ cucharadas de Albahaca Gourmet</li>
+          <li>2 tarro de tomates en cubos al natural</li>
+          <li>2 cucharaditas de azúcar</li>
+        </ul>
+      
+        <h2>Relleno</h2>
+        <ul>
+          <li>½ cebolla, en cubos</li>
+          <li>500 gr hojas de espinacas picadas</li>
+          <li>400 gr de champiñones, laminados</li>
+          <li>300 gr de queso mozarella</li>
+          <li>4 cucharadas queso parmesano</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h1 id="Preparacion">Preparacion</h1>
+        <br>
+        <h2>Masa</h2>
+        <p>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue). Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.</p>
+      
+        <h2>Salsa</h2>
+        <p>Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.</p>
+      
+        <h2>Relleno</h2>
+        <p>Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.</p>
+      
+        <p>Calentar el horno a 220°C.</p>
+        <p>Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizzas, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.</p>
+        <p>Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- tarjetas -->
+   
+<div class="container mt-5">
+  <div class="tarjetas2 mx-auto">
+    <h1 class="text-center mb-4">RECETAS RELACIONADAS</h1>
+    <div class="row">
+      <div class="col-md-4 mb-2 mt-5">
+        <div class="card">
+          <img src="/assets/img/milcao.jpg" class="card-img-top" alt="Milcaos">
+          <div class="card-body">
+            <h5 class="card-title">Milcaos</h5>
+            <p class="card-text">Empanadas antireflujo Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-2 mt-5">
+        <div class="card">
+          <img src="/assets/img/completo.jpg" class="card-img-top" alt="Completos">
+          <div class="card-body">
+            <h5 class="card-title">Completos</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         
+          </div>
+        </div>
+      </div>
+        
+      <div class="col-md-4 mb-2 mt-5">
+        <div class="card">
+          <img src="/assets/img/hamburgesa.jpg" class="card-img-top" alt="Sanguchitos">
+          <div class="card-body">
+            <h5 class="card-title">Sanguchitos</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- big -->
+<div class="noticias">
+  
+    
+    <h1>SUSCRÍBETE EN NUESTRO NEWSLETTER</h1>
+    <p>y obtén las mejores recetas que tenemos en </p>
+<div class="titulo1">
+  Ricomida
+</div>
+</div>
+
+<footer class="footer">
+    <h5>© RICOMIDA</h5>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+<script src="/assets/js/popovers.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.titulo1 {
+    font-family: Lobster;
+      color: #FFFFFF;
+    
+}
+
+.navbar {
+    background: #464545 0% 0% no-repeat padding-box;
+    
+}
+
+.navbar a {
+    color: white;
+    
+}
+
+.navbar-brand{
+    margin-left: 10%;
+   
+}
+
+
+
+@media (max-width: 768px) {
+    .custom-title,
+    .custom-text {
+        width: 100%;
+        font-size: 0.5em;
+    }
+}
+
+.contenedor h2{
+    
+    font-size: medium;
+}
+
+.contenedor{
+    margin-left: 25%;
+    font-size: small;
+}
+.pizza-image {
+    margin-left: 6em; /* Ajusta el valor de margen según tus preferencias */
+  }
+.carousel-item img {
+    margin-right: 10px; /* Agrega el espacio horizontal entre las imágenes */
+  }
+
+
+
+.tarjetas2{
+    margin: auto;
+    margin-top: 5%;
+    text-align: left; 
+    margin-left: 3%;
+    margin-bottom: 5%;    
+}
+
+.tarjetas2 p{
+    color: #707070;;
+    font-size: 65%;
+    }
+
+
+
+    .noticias {
+        background-color: #DC3545;
+        height: 20em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    
+
+
+.footer h5{
+    background: #212529 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+}
